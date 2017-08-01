@@ -12,7 +12,7 @@ class AboutUs extends Component {
               <a target="_blank" href="https://www.linkedin.com/in/ariel-salem-43199412a">
               <div className="profiles">
                 <p className="name">Ariel Salem</p>
-                <img src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAh_AAAAJGY5YTM4MzJkLTcxNWMtNDU2Yy04NjNlLTZkODFkMzZkNzYwZA.jpg" />
+                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAndAAAAJGI4OTlkMGFiLTlhZjMtNGMzMS04NDI5LTA0ZmJlZGViMjQ3Yg.jpg" />
                 <br />
                 <br />
                 <br />
