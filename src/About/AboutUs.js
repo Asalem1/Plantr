@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
-import ReactDOM from 'react-dom'
-
 class AboutUs extends Component {
   render() {
-
     return (
         <div className="row topAbout">
           <div className="col-md-6">

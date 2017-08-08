@@ -30,13 +30,13 @@ class Forum extends Component {
     };
     this.onInputChange = this.onInputChange.bind(this);
     this.openModal = this.openModal.bind(this);
-    this.afterOpenModal = this.afterOpenModal.bind(this);
+    // this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
 
-  afterOpenModal() {
-    this.subtitle.style.color = '#f00';
-  }
+  // afterOpenModal() {
+  //   this.subtitle.style.color = '#f00';
+  // }
 
   closeModal() {
     this.setState({modalIsOpen: false});
@@ -258,10 +258,9 @@ class Forum extends Component {
         </div>
         <Modal
           isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
+          // onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           style={customStyles}
-          contentLabel="Example Modal"
         >
           <h1 className="modal-header">Share Your Stories</h1>
           <CreateNewPost closeModal={this.closeModal} />
